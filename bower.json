@@ -1,0 +1,41 @@
+{
+  "name": "nothing-here",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Christoph \"criztovyl\" Schulz"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.6.3"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.min.js",
+        "dist/css/bootstrap.min.css",
+        "less/bootstrap.less"
+      ]
+    },
+    "font-awesome": {
+        "main": [
+            "css/font-awesome.min.css"
+        ]
+    },
+    "jquery": {
+        "main": [
+            "dist/jquery.min.js"
+        ]
+    }
+  }
+}
